@@ -15,9 +15,11 @@ release:
 # Assemble .app bundle from SPM build output
 bundle: release
 	@mkdir -p $(BUILD_DIR)/$(APP_NAME)/Contents/MacOS
+	@mkdir -p $(BUILD_DIR)/$(APP_NAME)/Contents/Resources
 	@cp $(BUILD_DIR)/release/Marker $(BUILD_DIR)/$(APP_NAME)/Contents/MacOS/
 	@cp -R $(BUILD_DIR)/release/Marker_Marker.bundle $(BUILD_DIR)/$(APP_NAME)/
 	@cp Info.plist $(BUILD_DIR)/$(APP_NAME)/Contents/
+	@cp AppIcon.icns $(BUILD_DIR)/$(APP_NAME)/Contents/Resources/
 	@echo "Built $(BUILD_DIR)/$(APP_NAME)"
 
 install: bundle
