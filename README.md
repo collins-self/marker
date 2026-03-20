@@ -21,7 +21,7 @@ A lightweight, keyboard-driven Markdown viewer for macOS. Dark theme, live reloa
 ## Install
 
 ```sh
-git clone https://github.com/youruser/Marker.git
+git clone https://github.com/collins-self/marker.git
 cd Marker
 make bundle
 sudo make install
