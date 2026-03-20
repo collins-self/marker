@@ -1,0 +1,24 @@
+#!/bin/bash
+# marker - Open a markdown file in Marker.app
+set -euo pipefail
+
+APP_NAME="Marker"
+APP_PATH="/Applications/${APP_NAME}.app"
+
+if [ ! -d "$APP_PATH" ]; then
+    APP_PATH="$HOME/Applications/${APP_NAME}.app"
+fi
+
+if [ ! -d "$APP_PATH" ]; then
+    # Try build directory
+    SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+    APP_PATH="${SCRIPT_DIR}/../.build/release/${APP_NAME}.app"
+fi
+
+if [ $# -eq 0 ]; then
+    open "$APP_PATH"
+else
+    # Resolve to absolute path
+    FILE_PATH="$(cd "$(dirname "$1")" && pwd)/$(basename "$1")"
+    open -a "$APP_PATH" "$FILE_PATH"
+fi

@@ -1,0 +1,55 @@
+{
+  "": {
+    "dependencies": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/Marker.d",
+    "object": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/Marker.o",
+    "swift-dependencies": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/master.swiftdeps"
+  },
+  "/Users/collinsself/dev/Marker/Sources/Marker/AppCommands.swift": {
+    "object": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/AppCommands.swift.o",
+    "swiftmodule": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/AppCommands~partial.swiftmodule",
+    "swift-dependencies": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/AppCommands.swiftdeps",
+    "diagnostics": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/AppCommands.dia"
+  },
+  "/Users/collinsself/dev/Marker/Sources/Marker/ContentView.swift": {
+    "object": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/ContentView.swift.o",
+    "swiftmodule": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/ContentView.swiftdeps",
+    "diagnostics": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/ContentView.dia"
+  },
+  "/Users/collinsself/dev/Marker/Sources/Marker/FileWatcher.swift": {
+    "object": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/FileWatcher.swift.o",
+    "swiftmodule": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/FileWatcher~partial.swiftmodule",
+    "swift-dependencies": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/FileWatcher.swiftdeps",
+    "diagnostics": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/FileWatcher.dia"
+  },
+  "/Users/collinsself/dev/Marker/Sources/Marker/KeyboardHandler.swift": {
+    "object": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/KeyboardHandler.swift.o",
+    "swiftmodule": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/KeyboardHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/KeyboardHandler.swiftdeps",
+    "diagnostics": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/KeyboardHandler.dia"
+  },
+  "/Users/collinsself/dev/Marker/Sources/Marker/MarkdownRenderer.swift": {
+    "object": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/MarkdownRenderer.swift.o",
+    "swiftmodule": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/MarkdownRenderer~partial.swiftmodule",
+    "swift-dependencies": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/MarkdownRenderer.swiftdeps",
+    "diagnostics": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/MarkdownRenderer.dia"
+  },
+  "/Users/collinsself/dev/Marker/Sources/Marker/MarkdownWebView.swift": {
+    "object": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/MarkdownWebView.swift.o",
+    "swiftmodule": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/MarkdownWebView~partial.swiftmodule",
+    "swift-dependencies": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/MarkdownWebView.swiftdeps",
+    "diagnostics": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/MarkdownWebView.dia"
+  },
+  "/Users/collinsself/dev/Marker/Sources/Marker/MarkerApp.swift": {
+    "object": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/MarkerApp.swift.o",
+    "swiftmodule": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/MarkerApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/MarkerApp.swiftdeps",
+    "diagnostics": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/MarkerApp.dia"
+  },
+  "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/DerivedSources/resource_bundle_accessor.swift": {
+    "object": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/resource_bundle_accessor.swiftdeps",
+    "diagnostics": "/Users/collinsself/dev/Marker/.build/arm64-apple-macosx/release/Marker.build/resource_bundle_accessor.dia"
+  }
+}
